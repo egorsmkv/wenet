@@ -33,17 +33,9 @@ data_type=raw
 num_utts_per_shard=1000
 
 train_set=train
-# Optional train_config
-# 1. conf/train_transformer.yaml: Standard transformer
-# 2. conf/train_conformer.yaml: Standard conformer
-# 3. conf/train_unified_conformer.yaml: Unified dynamic chunk causal conformer
-# 4. conf/train_unified_transformer.yaml: Unified dynamic chunk transformer
-# 5. conf/train_conformer_no_pos.yaml: Conformer without relative positional encoding
-# 6. conf/train_u2++_conformer.yaml: U2++ conformer
-# 7. conf/train_u2++_transformer.yaml: U2++ transformer
-train_config=conf/train_u2pp_conformer.yaml
+train_config=conf/train_conformer.yaml
 cmvn=true
-dir=exp/u2pp_conformer
+dir=exp/conformer
 checkpoint=
 nbpe=5000
 
