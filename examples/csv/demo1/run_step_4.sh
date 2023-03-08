@@ -35,8 +35,8 @@ num_utts_per_shard=1000
 train_set=train
 train_config=conf/train_conformer.yaml
 cmvn=true
-dir=exp/u2pp_conformer
-checkpoint=exp/u2pp_conformer/159.pt
+dir=exp/conformer
+checkpoint=
 nbpe=5000
 
 # use average_checkpoint will get better result
