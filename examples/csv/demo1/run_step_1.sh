@@ -36,7 +36,7 @@ num_utts_per_shard=1000
 train_set=train
 train_config=conf/train_conformer.yaml
 cmvn=true
-dir=exp/u2pp_conformer_uk
+dir=exp/conformer
 checkpoint=
 nbpe=5000
 
