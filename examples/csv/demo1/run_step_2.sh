@@ -19,8 +19,7 @@ num_nodes=1
 # The first node/machine sets node_rank 0, the second one sets node_rank 1
 # the third one set node_rank 2, and so on. Default 0
 node_rank=0
-# data
-csv_data=/root/autodl-tmp/cv-corpus-8.0-2022-01-19
+
 # path to save preproecssed data
 # export data=data
 . ./path.sh
@@ -35,14 +34,6 @@ data_type=raw
 num_utts_per_shard=1000
 
 train_set=train
-# Optional train_config
-# 1. conf/train_transformer.yaml: Standard transformer
-# 2. conf/train_conformer.yaml: Standard conformer
-# 3. conf/train_unified_conformer.yaml: Unified dynamic chunk causal conformer
-# 4. conf/train_unified_transformer.yaml: Unified dynamic chunk transformer
-# 5. conf/train_conformer_no_pos.yaml: Conformer without relative positional encoding
-# 6. conf/train_u2++_conformer.yaml: U2++ conformer
-# 7. conf/train_u2++_transformer.yaml: U2++ transformer
 train_config=conf/train_conformer.yaml
 cmvn=true
 dir=exp/conformer
