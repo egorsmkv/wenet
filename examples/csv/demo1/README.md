@@ -29,6 +29,20 @@ nohup bash run_step_4.sh &> training_logs.out &
 tail -f training_logs.out
 ```
 
+## How to test
+
+```
+bash run_step_5.sh
+```
+
+## How to export the model
+
+```
+bash run_step_6.sh
+```
+
+---
+
 ## How to run tensorboard to see the metrics
 
 ```
